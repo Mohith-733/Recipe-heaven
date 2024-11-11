@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Haven</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://png.pngtree.com/png-vector/20240821/ourlarge/pngtree-watercolor-background-purple-png-image_13343923.png");
+}
+
+header {
+    background-color:rgb(140, 1, 227);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.hero button {
+    padding: 10px 15px;
+    background-color:violet;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.recipes {
+    padding: 20px;
+    text-align: center;
+}
+
+.recipes h2 {
+    margin-bottom: 20px;
+    color:white;
+}
+
+.recipe-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 15px;
+    padding: 15px;
+    display: inline-block;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(140, 1, 227);
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Recipe Heaven</div>
+        <nav>
+            <ul>
+                <li><a href="homepage1.html">sign In</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Recipe Heaven</h1>
+            <p>Your go - to place for delicious recipes!</p>
+            <input type="text" placeholder="Search for recipes..." />
+            <button>Search</button>
+        </section>
+
+        <section class="recipes">
+            <h2>Featured Recipes</h2>
+            <div class="recipe-card">
+                <img src="https://cdn.shopify.com/s/files/1/0551/8009/9722/files/1_46134c8a-5a69-47a0-ae04-d7f54e467953_480x480.png?v=1712492100" alt="Spaghetti Aglio e Olio">
+                <h3>Spaghetti Aglio e Olio</h3>
+                <p>A classic Italian dish with garlic and olive oil.</p>
+            </div>
+            <div class="recipe-card">
+                <img src="https://img.clevup.in/301880/1694011142319_DragonChicken021.jpeg?width=600&format=webp" alt="Garlic Chicken">
+                <h3>Garlic Chicken</h3>
+                <p>Tender chicken thighs cooked with garlic and herbs.</p>
+            </div>
+            <div class="recipe-card">
+                <img src="https://www.mccormick.com/-/media/project/oneweb/mccormick-us/mccormick/recipe-images/stir-fry-vegetables-recipe-800x800.jpg?rev=56e6eec8c7b14887a5c238eb35a20da9&vd=20240606T181334Z&extension=webp&hash=FF02DA13F3817A968D847A8A85B1E48D" alt="Vegetable Stir Fry">
+                <h3>Vegetable Stir Fry</h3>
+                <p>A vibrant mix of fresh vegetables sautéed to perfection.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Recipe Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
